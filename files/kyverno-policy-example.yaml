@@ -9,7 +9,7 @@ spec:
       any:
       - resources:
           kinds:
-          - ApplicationSets
+          - ApplicationSet
     validate:
       failureAction: Audit
       message: "label 'team' is required"
